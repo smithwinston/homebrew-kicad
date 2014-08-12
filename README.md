@@ -2,11 +2,9 @@
 
 Homebrew Formula for the KiCad EDA Software
 
-I try to update this daily for KICAD Builds
-NOTE: This is currently in flux and may not work on your system!!!!!!
 ## Install
 
-    brew tap shaneburrell/homebrew-kicad
+    brew tap smithwinston/homebrew-kicad
     brew install --HEAD kicad
 
 ##
@@ -16,6 +14,6 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages
 
 ## Contributions and Original Work
 
-Thanks to https://github.com/peabody124 and https://github.com/mheuser
+Thanks to https://github.com/peabody124, https://github.com/mheuser and https://github.com/shaneburrell
 
 
