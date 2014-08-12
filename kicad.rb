@@ -62,19 +62,6 @@ class Kicad < Formula
 end
 
 __END__
-diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 3a38d84..5ef82b2 100644
---- a/CMakeLists.txt
-+++ b/CMakeLists.txt
-@@ -342,7 +342,7 @@ endif()
- 
- # On Apple only wxwidgets 2.9 or higher doesn't need to find aui part of base
- if( APPLE )
--    find_package( wxWidgets COMPONENTS gl adv html core net base xml QUIET )
-+    find_package( wxWidgets COMPONENTS gl aui adv html core net base xml QUIET )
- else()
-     find_package( wxWidgets COMPONENTS gl aui adv html core net base xml QUIET )
- endif()
 diff --git a/CMakeModules/download_boost.cmake b/CMakeModules/download_boost.cmake
 index dd72e7c..2e42fdd 100644
 --- a/CMakeModules/download_boost.cmake
